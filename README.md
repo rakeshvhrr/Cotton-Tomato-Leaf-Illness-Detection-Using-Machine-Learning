@@ -34,18 +34,14 @@ Follow these steps to set up the project locally:
    ```
    pip install django
    ```
-4. Run locally
-   ```
-   python app.py runserver
-   ```
 
-## Usage
-To use the illness detection system:
+## Run Locally
 
-Prepare your dataset of cotton and tomato leaf images, ensuring they are labeled with the corresponding illnesses.<br>
-Train the machine learning model using the provided scripts or customize them according to your dataset and requirements.<br>
-Evaluate the model's performance using validation data and fine-tune as necessary.<br>
-Deploy the trained model for inference on new images or integrate it into your farming practices for real-time monitoring.<br>
+After following the above steps for installation, type the command below to run the project.
+
+   ```
+   python app.py runsever
+   ```
 
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, please follow these steps:

@@ -17,10 +17,14 @@ Follow these steps to set up the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/cotton-tomato-illness-detection.git
-Install dependencies:
-pip install -r requirements.txt
-Download the dataset and pre-trained models (if applicable) from the provided links or sources.
-
+2. Change directory
+   cd Cotton-Tomato-Leaf-Illness-Detection-Using-Machine-Learning
+   cd cotton_tomato_disease
+3. Install dependencies:
+   pip install -r requirements.txt
+4. Run locally
+   python app.py runserver
+   
 ## Usage
 To use the illness detection system:
 

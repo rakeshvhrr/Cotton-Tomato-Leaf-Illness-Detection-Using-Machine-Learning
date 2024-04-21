@@ -21,13 +21,23 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/your-username/cotton-tomato-illness-detection.git
 2. Change directory<br>
-   cd Cotton-Tomato-Leaf-Illness-Detection-Using-Machine-Learning<br>
+   ```
+   cd Cotton-Tomato-Leaf-Illness-Detection-Using-Machine-Learning
+   ```
+   ```
    cd cotton_tomato_disease<br>
+   ```
 3. Install dependencies:
-   pip install -r requirements.txt<br>
-   pip install django<br>
+   ```
+   pip install -r requirements.txt
+   ```
+   ```
+   pip install django
+   ```
 4. Run locally
+   ```
    python app.py runserver
+   ```
 
 ## Usage
 To use the illness detection system:

@@ -1,0 +1,68 @@
+{% extends 'userbase.html' %}
+{% block content %}
+<section class="contact section-padding" style="padding-top: 10px;">
+    <div class="container">
+        <div class="row">
+
+              <div class="col-lg-4 mx-auto col-md-7 col-12 py-5 mt-5 text-center" data-aos="fade-up">
+
+                <h1 class="mb-4">Hey there, Let's <strong>Predict</strong> the <strong>results</strong></h1>
+
+              </div>
+              <!--<div class="col-lg-8 mx-auto col-md-10 col-12">
+               <form action="#" id="upload-file" method="post" class="contact-form" data-aos="fade-up" data-aos-delay="300" role="form">
+                    <div class="row">
+                      <div class="col-lg-6 col-12">
+                        <input type="file" id="imageUpload" name="file" class="form-control" accept=".png, .jpg, .jpeg">
+                      </div>
+                      <div class="google-map" data-aos="zoom-in">
+                        <div id="imagePreview">
+                        </div>
+                    </div>
+        
+
+
+
+            
+                      <div class="col-lg-5 mx-auto col-7">
+                        <button type="submit" class="form-control" id="submit-button" name="submit">submit</button>
+                      </div>
+                      <div class="google-map" data-aos="zoom-in">
+                        
+                       </div>
+                      <div class="col-lg-6 col-12">
+                        
+                      </div>
+    
+                    </div>
+
+                </form>-->
+
+        </div>
+        <div>
+            <form id="upload-file" method="post" enctype="multipart/form-data">
+                <center><label for="imageUpload" class="upload-label">
+                    Choose...
+                </label>
+            </center>
+                <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+            </form>
+           <center><div class="image-section " style="display:none;">
+                <div class="img-preview" >
+                    <div id="imagePreview">
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary btn-lg " id="btn-predict1">Predict!</button>
+                </div>
+            </div>
+            <div class="loader" style="display:none;"></div>
+        
+            <h3 id="result">
+                <span> </span>
+            </h3>
+        </div>
+    </center> 
+   </div>
+</section>
+{% endblock %}

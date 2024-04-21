@@ -1,0 +1,30 @@
+{% extends 'adminbase.html' %}
+{% block content %}
+
+<div class="container" style="background-color: rgb(236, 236, 184);">
+  <br>
+  <h2 class="text-center"> View All Feedback</h2>
+  <br>
+    
+    <table class="table">
+      <thead>
+        <tr>    
+          <th>FARMER NAME</th>
+          <th>MOBILE NUMBER</th>
+          <th> TITLE</th>
+          <th> DESCRIPTION </th>
+      </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+        <tr>
+            <td>{{row['farmername']}}</td>
+            <td>{{row['mobilenumber']}}</td>
+            <td>{{row['title']}}</td>
+            <td>{{row['description']}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endblock %}  

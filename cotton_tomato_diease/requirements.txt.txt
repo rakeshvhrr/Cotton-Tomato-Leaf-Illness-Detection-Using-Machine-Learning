@@ -1,0 +1,9 @@
+pip install tensorflow==2.2 --user
+pip install sqlalchemy
+pip install flask
+pip install pandas
+pip install numpy
+
+*********tomato *********
+ pip install --upgrade tensorflow --use-feature=2020-resolver
+ 

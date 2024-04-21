@@ -25,7 +25,7 @@ Follow these steps to set up the project locally:
    cd Cotton-Tomato-Leaf-Illness-Detection-Using-Machine-Learning
    ```
    ```
-   cd cotton_tomato_disease<br>
+   cd cotton_tomato_disease
    ```
 3. Install dependencies:
    ```

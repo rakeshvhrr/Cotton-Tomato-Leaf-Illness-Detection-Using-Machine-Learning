@@ -24,18 +24,18 @@ Download the dataset and pre-trained models (if applicable) from the provided li
 ## Usage
 To use the illness detection system:
 
-Prepare your dataset of cotton and tomato leaf images, ensuring they are labeled with the corresponding illnesses.
-Train the machine learning model using the provided scripts or customize them according to your dataset and requirements.
-Evaluate the model's performance using validation data and fine-tune as necessary.
-Deploy the trained model for inference on new images or integrate it into your farming practices for real-time monitoring.
+Prepare your dataset of cotton and tomato leaf images, ensuring they are labeled with the corresponding illnesses.<br>
+Train the machine learning model using the provided scripts or customize them according to your dataset and requirements.<br>
+Evaluate the model's performance using validation data and fine-tune as necessary.<br>
+Deploy the trained model for inference on new images or integrate it into your farming practices for real-time monitoring.<br>
 
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
 
-1.Fork the repository.
-2.Create a new branch for your feature or bug fix: git checkout -b feature/new-feature.
-3.Commit your changes: git commit -m "Add new feature".
-4.Push to the branch: git push origin feature/new-feature.
+1.Fork the repository.<br>
+2.Create a new branch for your feature or bug fix: git checkout -b feature/new-feature.<br>
+3.Commit your changes: git commit -m "Add new feature".<br>
+4.Push to the branch: git push origin feature/new-feature.<br>
 5.Submit a pull request outlining your changes.
 
 ## Contact

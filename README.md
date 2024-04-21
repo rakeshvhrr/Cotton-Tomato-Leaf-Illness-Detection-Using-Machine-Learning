@@ -3,13 +3,16 @@
 Welcome to the Cotton and Tomato Leaf Illness Detection project! This repository contains the codebase and resources for leveraging machine learning techniques to identify illnesses affecting cotton and tomato plants' leaves.
 
 ## About
-This project aims to assist farmers in detecting and diagnosing common illnesses that afflict cotton and tomato plants' leaves. By utilizing machine learning algorithms, we can analyze images of plant leaves and provide early detection of diseases, enabling prompt intervention and effective management strategies.
+In this application we can utilize the strategy for ML by utilizing the python language. The proposed technique in the accompanying cotton plant leaf sickness location framework center around producing a development and proficient framework which makes the way toward making high return of cotton and tomato significantly more simpler for the ranchers. The venture intends to identify the most well-known illness happening on a cotton and tomato leaf, by utilizing the ML innovation. 
+In this examination, we depict the correlation of our framework with previous framework with appropriate system and execution. The proposed framework usefulness is better than existing illness location framework as it can create more exact and exact outcome with simpler and quicker execution. It means to make the existence of farmers simpler.
+
 
 ## Features
 - Utilizes state-of-the-art machine learning algorithms for image classification.
 - Supports detection of a wide range of illnesses affecting cotton and tomato leaves.
 - Provides accurate and real-time diagnosis to aid farmers in making informed decisions.
 - Offers an intuitive and user-friendly interface for easy interaction and interpretation of results.
+- Tech Stack: HTML, CSS, JavaScript, Python, Django, SQlite3.
 
 ## Installation
 Follow these steps to set up the project locally:
@@ -22,9 +25,10 @@ Follow these steps to set up the project locally:
    cd cotton_tomato_disease
 3. Install dependencies:
    pip install -r requirements.txt
+   pip install django
 4. Run locally
    python app.py runserver
-   
+
 ## Usage
 To use the illness detection system:
 
